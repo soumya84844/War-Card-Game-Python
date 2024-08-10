@@ -59,8 +59,8 @@ class Player():
         return f"Player {self.name} has {len(self.hand)} cards."
     
 def game():
-    player1 = Player(input("Enter Player 1 name : "))
-    player2 = Player(input("Enter Player 2 name : "))
+    player1 = Player("1")
+    player2 = Player("2")
 
     deck = Deck()
     deck.shuffle_deck()
